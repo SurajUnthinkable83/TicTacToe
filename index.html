@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TicTacToe</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <h1>Tic Tac Toe</h1>
+         <div class="player">
+            <span id="p1">Player 1: <span>0</span></span> 
+            <span id="p2">Player 2: <span>0</span></span>
+         </div>
+         <div class="container">
+                <div class="row" id="row_0">
+                    <div class="cell" id="cell_0_0"></div>
+                    <div class="cell" id="cell_0_1"></div>
+                    <div class="cell" id="cell_0_2"></div>
+                </div>
+                <div class="row" id="row_1">
+                    <div class="cell" id="cell_1_0"></div>
+                    <div class="cell" id="cell_1_1"></div>
+                    <div class="cell" id="cell_1_2"></div>
+                </div>
+                <div class="row" id="row_2">
+                    <div class="cell" id="cell_2_0"></div>
+                    <div class="cell" id="cell_2_1"></div>
+                    <div class="cell" id="cell_2_2"></div>
+                </div>
+                <div class="conclusion">
+                    <h3></h3>
+                    <button class="replaybtn">Replay</button>
+                </div>
+         </div>
+         <div style="display: flex; gap: 4px; width: 200px;">
+            <button class="replaybtn turn">Change Turn</button>
+            <button class="replayBtn">Reset</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
